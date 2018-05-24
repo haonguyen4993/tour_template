@@ -1,3 +1,137 @@
-<% content_for :slider do %>
+<% content_for :head_decor do %>
   <%= render "layouts/banner" %>
 <% end %>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-7 col-md-offset-2">
+      <div class="tour-info">
+        <div class="short-descrip">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum odio vel repudiandae mollitia non labore obcaecati recusandae earum saepe corporis sint ipsam, unde repellendus vero aut rem placeat, tenetur assumenda.</p>
+          <span>Raring: 5.0</span>
+        </div>
+        <div class="itinerary">
+          <h4>Itinerary</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+          <h4>Content</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus amet, magni excepturi eligendi mollitia! Veniam dolor eveniet pariatur similique maiores perferendis exercitationem beatae molestiae accusantium repellat, delectus, dolorum inventore.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, ea velit consectetur aut ullam amet architecto doloribus nobis molestias illo, eaque accusantium esse error. Minus molestias officiis, ab voluptas odio?</p>
+        </div>
+        <div class="tour-options">
+          <h4>Options</h4>
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h6 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Tour detail #1
+                  </a>
+                </h6>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                  <p><strong>Start day: 20/05/2018</strong></p>
+                  <p><strong>End day: 22/05/2018</strong></p>
+                  <p><strong>Price: 3000$</strong></p>
+                  <a class="btn btn-default" href="#" role="button">Book Tour</a>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingTwo">
+                <h6 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Tour detail #2
+                  </a>
+                </h6>
+              </div>
+              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+                  <p><strong>Start day: 20/05/2018</strong></p>
+                  <p><strong>End day: 22/05/2018</strong></p>
+                  <p><strong>Price: 3000$</strong></p>
+                  <a class="btn btn-default" href="#" role="button">Book Tour</a>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                <h6 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Tour detail #3
+                  </a>
+                </h6>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">
+                  <p><strong>Start day: 20/05/2018</strong></p>
+                  <p><strong>End day: 22/05/2018</strong></p>
+                  <p><strong>Price: 3000$</strong></p>
+                  <a class="btn btn-default" href="#" role="button">Book Tour</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tour-reviews">
+        <p><b>Customer reviews</b></p>
+        <div class="review">
+          <span><b>Account name</b></span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, repellat, eligendi minus laboriosam ipsum iure voluptatem tenetur corporis, esse placeat atque enim quam nam veniam rerum hic? Vel, debitis, a.</p>
+        </div>
+        <div class="review">
+          <span><b>Account name</b></span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, repellat, eligendi minus laboriosam ipsum iure voluptatem tenetur corporis, esse placeat atque enim quam nam veniam rerum hic? Vel, debitis, a.</p>
+        </div>
+        <div class="review">
+          <span><b>Account name</b></span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, repellat, eligendi minus laboriosam ipsum iure voluptatem tenetur corporis, esse placeat atque enim quam nam veniam rerum hic? Vel, debitis, a.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="tour-suggest">
+        <span><b>You might also like</b></span>
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <%= image_tag "tour-2.jpg" %>
+              <div class="caption">
+                <h3>Tour name</h3>
+                <p>Rating: 5.0</p>
+                <p><a href="#" class="btn btn-primary" role="button">Details</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <%= image_tag "tour-4.jpg" %>
+              <div class="caption">
+                <h3>Tour name</h3>
+                <p>Rating: 5.0</p>
+                <p><a href="#" class="btn btn-primary" role="button">Details</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <%= image_tag "tour-6.jpg" %>
+              <div class="caption">
+                <h3>Tour name</h3>
+                <p>Rating: 5.0</p>
+                <p><a href="#" class="btn btn-primary" role="button">Details</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
